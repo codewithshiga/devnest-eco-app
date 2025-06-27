@@ -13,3 +13,12 @@ h2{text-align: right;
 color:black;
 }
 
+body {
+  background: linear-gradient(135deg, #f0f4ff, #e0ffe9);
+  animation: breathe 5s ease-in-out infinite;
+}
+
+@keyframes breathe {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
